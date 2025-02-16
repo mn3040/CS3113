@@ -196,7 +196,7 @@ void update()
     g_scale_invincible.x = cos(ticks);
     g_scale_invincible.y = sin(ticks);
 
-    g_scale_mordecai.x = -g_scale_invincible.x;
+    g_scale_mordecai.x = -2 * g_scale_invincible.x;
     g_scale_mordecai.y = -g_scale_invincible.y;
 
     /* Model matrix reset */
