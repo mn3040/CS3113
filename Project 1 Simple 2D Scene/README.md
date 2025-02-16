@@ -87,7 +87,3 @@ The assignment is created by **Matthew Nunez** and is due on **February 15, 2025
 - Add more sprites or objects to the scene for a richer 2D environment.
 - Implement keyboard or mouse controls for interactive movement of objects.
 - Introduce lighting, shaders, and more advanced graphics techniques.
-
-## License
-
-This project is intended for educational purposes and is governed by the academic policies of NYU School of Engineering. Any reuse or redistribution of this code should include proper attribution.
