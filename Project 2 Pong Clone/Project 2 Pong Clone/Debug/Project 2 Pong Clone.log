@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\mattu\source\repos\Project 2 Pong Clone\Project 2 Pong Clone\main.cpp(23,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\mattu\source\repos\Project 2 Pong Clone\Project 2 Pong Clone\main.cpp(24,15): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\mattu\source\repos\Project 2 Pong Clone\Project 2 Pong Clone\main.cpp(391,31): warning C4305: '-=': truncation from 'double' to 'float'
+  Project 2 Pong Clone.vcxproj -> C:\Users\mattu\source\repos\Project 2 Pong Clone\Debug\Project 2 Pong Clone.exe
