@@ -500,6 +500,7 @@ void update()
 	bool any_ball_out = false; // to check if any ball is out
     int last_ball_out_direction = 0; // 1 = right, -1 = left
 
+    
     if (g_active_ball_count >= 1 && (g_ball_position_1.x > bgHalfWidth - .1 || g_ball_position_1.x < -bgHalfWidth + .1)) {
         any_ball_out = true;
         if (g_ball_position_1.x > 0) {
@@ -579,8 +580,8 @@ void render() {
 
 	// draw the rotating background
     glm::mat4 rotating_bg_matrix = glm::mat4(1.0f);
-    rotating_bg_matrix = glm::rotate(rotating_bg_matrix, g_rotation_angle, glm::vec3(0.0f, 0.0f, 1.0f)); // Rotate around the Z-axis
-    rotating_bg_matrix = glm::scale(rotating_bg_matrix, glm::vec3(12.0f, 12.0f, 1.0f)); // Scale it to fit
+    rotating_bg_matrix = glm::rotate(rotating_bg_matrix, g_rotation_angle, glm::vec3(0.0f, 0.0f, 1.0f)); // rotate around the z-axis
+    rotating_bg_matrix = glm::scale(rotating_bg_matrix, glm::vec3(12.0f, 12.0f, 1.0f)); // scale it to fit
     draw_object(rotating_bg_matrix, g_rotating_background_texture_id);
 
 	// draw the pixelated game background
@@ -588,7 +589,7 @@ void render() {
     bg_matrix = glm::scale(bg_matrix, glm::vec3(7.0f, 5.0f, 1.0f));
     draw_object(bg_matrix, g_background_texture_id);
 
-	// Draw the ufos and balls
+	// draw the ufos and balls
     draw_object(g_amber_matrix, g_amber_texture_id);
     draw_object(g_blue_matrix, g_blue_texture_id);
 
@@ -612,13 +613,13 @@ void render() {
             winner_texture_id = g_amber_winner_texture_id;
         }
 
-        // display Winner Message
+        // display winner message
         glm::mat4 winner_matrix = glm::mat4(1.0f);
         winner_matrix = glm::translate(winner_matrix, glm::vec3(0.0f, 2.9f, 0.0f));
         winner_matrix = glm::scale(winner_matrix, glm::vec3(1.5f, 1.5f, 1.0f));
         draw_object(winner_matrix, winner_texture_id);
 
-        // display "Game Over" Message
+        // display "game over" message
         g_game_over_matrix = glm::mat4(1.0f);
         g_game_over_matrix = glm::scale(g_game_over_matrix, glm::vec3(2.0f, 2.0f, 1.0f));
         draw_object(g_game_over_matrix, g_gameOver_texture_id);
