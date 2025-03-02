@@ -16,6 +16,16 @@
 #include "cmath"
 #include <ctime>
 
+/**
+* Author: Matthew Nunez
+* Assignment: Pong Clone
+* Date due: 2025-3-01, 11:59pm
+* I pledge that I have completed this assignment without
+* collaborating with anyone else, in conformance with the
+* NYU School of Engineering Policies and Procedures on
+* Academic Misconduct.
+**/
+
 enum AppStatus { RUNNING, TERMINATED };
 
 constexpr float WINDOW_SIZE_MULT = 2.0f;
