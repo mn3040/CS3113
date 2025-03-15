@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\mattu\source\repos\Project 3 Lunar Lander\Project 3 Lunar Lander\main.cpp(234,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mattu\source\repos\Project 3 Lunar Lander\Project 3 Lunar Lander\main.cpp(391,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mattu\source\repos\Project 3 Lunar Lander\Project 3 Lunar Lander\main.cpp(514,64): warning C4305: 'argument': truncation from 'double' to 'float'
+  Project 3 Lunar Lander.vcxproj -> C:\Users\mattu\source\repos\Project 3 Lunar Lander\Debug\Project 3 Lunar Lander.exe
