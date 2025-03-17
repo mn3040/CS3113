@@ -9,6 +9,9 @@ This project is a **Pong Clone** implemented using **SDL2 and OpenGL**. The game
 - Collision detection and physics to simulate ball movement.
 - Simple graphics with textures for UFOs, the ball, and background.
 
+![image](https://github.com/user-attachments/assets/721168b9-dbeb-4130-97b3-eb0e53f7676d)
+
+
 ## Features
 - **Single and Multiplayer Mode**: Play against another player or challenge yourself in a one-player mode.
 - **Dynamic Ball Movement**: The ball moves and bounces realistically off walls and paddles.
