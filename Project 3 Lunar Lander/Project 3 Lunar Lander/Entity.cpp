@@ -183,7 +183,7 @@ void Entity::check_collision(float ground_height, glm::vec3& object_position, bo
         float platform_width = 0.5f;
         float platform_height = 0.3f;
 
-		// check if the entity is above the platform
+		// check if the lander is above the platform
         bool above_platform =
             (m_position.x >= object_position.x - platform_width) &&
             (m_position.x <= object_position.x + platform_width);
@@ -208,7 +208,7 @@ void Entity::check_collision(float ground_height, glm::vec3& object_position, bo
                 win = true;
             }
         }
-		// check if the entity has crashed into the ground
+		// check if the lander has crashed into the ground
         else if (m_position.y <= -2.95f) { 
             m_crashed = true;
 			win = false;
@@ -217,6 +217,15 @@ void Entity::check_collision(float ground_height, glm::vec3& object_position, bo
             m_velocity = glm::vec3(0.0f);
             m_acceleration = glm::vec3(0.0f);
         }
+
+		// check if the lander has crashed into the sides of the screen
+		else if (m_position.x <= -4.75f || m_position.x >= 4.75f) {
+			m_crashed = true;
+			win = false;
+			m_current_animation = CRASHED;
+			m_velocity = glm::vec3(0.0f);
+			m_acceleration = glm::vec3(0.0f);
+		}
     }
 }
 
