@@ -3,6 +3,9 @@
 ## Overview
 Lunar Lander is a physics-based 2D game where players must carefully navigate a lunar module to a safe landing on the moon's surface. The game challenges players to manage their fuel, control thrust orientation, and maintain proper landing angle to achieve a successful touchdown on designated platforms while avoiding obstacles including a dangerous meteor.
 
+![image](https://github.com/user-attachments/assets/d8cdd7b0-2acc-4a61-ab94-09e491f7c30c)
+
+
 ## Game Mechanics
 
 ### Controls
