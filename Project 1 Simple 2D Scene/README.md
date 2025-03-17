@@ -4,8 +4,6 @@
 
 This project is a simple 2D scene rendered using OpenGL, SDL, and GLSL shaders. It demonstrates basic 2D transformations, including translation, rotation, and scaling, along with texture mapping. The scene features two animated characters: "Invincible" and "Mordecai", which move and rotate independently. The scene is created using **C++**, **OpenGL**, and **SDL**. 
 
-The assignment is created by **Matthew Nunez** and is due on **February 15, 2025**.
-
 ## Features
 - **Texture Mapping**: Loads and displays two textures (Invincible and Mordecai sprites).
 - **Transformations**: Applies rotation, scaling, and translation to both sprites.
