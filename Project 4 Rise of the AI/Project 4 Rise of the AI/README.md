@@ -4,7 +4,7 @@ Welcome to **Rise of the AI**, a 2D platformer created using C++, SDL2, and Open
 
 ## 🎮 Game Description
 
-"Rise of the AI" is a retro-inspired side-scrolling platformer that challenges players to survive three distinct levels full of animated enemies, collectible coins, disappearing platforms, secret paths, and more. Featuring immersive sound effects and pixel-perfect collisions, the game tests reflexes, timing, and strategic thinking.
+"Rise of the AI" is a retro-inspired side-scrolling platformer that challenges players to survive three distinct levels full of animated enemies and more. Featuring immersive sound effects and pixel-perfect collisions, the game tests reflexes, timing, and strategic thinking.
 
 ## 📸 Screenshots
 ![Screenshot 2025-04-06 003238](https://github.com/user-attachments/assets/0a1d6267-1a89-44f6-b414-637a823ff539)
@@ -27,8 +27,6 @@ Welcome to **Rise of the AI**, a 2D platformer created using C++, SDL2, and Open
 
 - 💡 **Polished Game Design**:
   - Multi-layered level layout with strategic enemy placements
-  - Disappearing platforms and secret paths in Level C
-  - Coins that contribute to a global score across levels
 
 - 🎮 **Controls**:
   - `← →` to move
