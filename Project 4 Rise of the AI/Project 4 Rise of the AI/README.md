@@ -65,17 +65,13 @@ src/*.cpp -o RiseOfTheAI
 For Windows users, ensure proper linking to .dll and .lib files for SDL and OpenGL.
 
 💻 Developers
-Matthew Nunez – Game design, programming, and visual assets
-
-Created as part of the Spring 2025 course: CS-UY 3113 - Intro to Game Programming
+- Matthew Nunez – Game design, programming, and visual assets
+- Created as part of the Spring 2025 course: CS-UY 3113 - Intro to Game Programming
 
 🏁 Future Improvements
-Add a global UI showing the coin counter
-
-Track high scores and time
-
-Boss fight in Level C?
-
-Expand enemy behaviors (e.g., projectiles, patrolling platforms)
+- Add a global UI showing the coin counter
+- Track high scores and time
+- Boss fight in Level C?
+- Expand enemy behaviors (e.g., projectiles, patrolling platforms)
 
 
