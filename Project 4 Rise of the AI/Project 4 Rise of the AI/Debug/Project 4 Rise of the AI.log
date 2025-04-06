@@ -1,0 +1,19 @@
+﻿  Entity.cpp
+C:\Users\mattu\source\repos\Project 4 Rise of the AI\Project 4 Rise of the AI\Entity.cpp(204,44): warning C4244: '-=': conversion from 'double' to 'T', possible loss of data
+C:\Users\mattu\source\repos\Project 4 Rise of the AI\Project 4 Rise of the AI\Entity.cpp(204,44): warning C4244:         with
+C:\Users\mattu\source\repos\Project 4 Rise of the AI\Project 4 Rise of the AI\Entity.cpp(204,44): warning C4244:         [
+C:\Users\mattu\source\repos\Project 4 Rise of the AI\Project 4 Rise of the AI\Entity.cpp(204,44): warning C4244:             T=float
+C:\Users\mattu\source\repos\Project 4 Rise of the AI\Project 4 Rise of the AI\Entity.cpp(204,44): warning C4244:         ]
+C:\Users\mattu\source\repos\Project 4 Rise of the AI\Project 4 Rise of the AI\Entity.cpp(216,48): warning C4244: '+=': conversion from 'double' to 'T', possible loss of data
+C:\Users\mattu\source\repos\Project 4 Rise of the AI\Project 4 Rise of the AI\Entity.cpp(216,48): warning C4244:         with
+C:\Users\mattu\source\repos\Project 4 Rise of the AI\Project 4 Rise of the AI\Entity.cpp(216,48): warning C4244:         [
+C:\Users\mattu\source\repos\Project 4 Rise of the AI\Project 4 Rise of the AI\Entity.cpp(216,48): warning C4244:             T=float
+C:\Users\mattu\source\repos\Project 4 Rise of the AI\Project 4 Rise of the AI\Entity.cpp(216,48): warning C4244:         ]
+  LevelA.cpp
+  LevelB.cpp
+  LevelC.cpp
+  Menu.cpp
+  Scene.cpp
+  main.cpp
+  Generating Code...
+  Project 4 Rise of the AI.vcxproj -> C:\Users\mattu\source\repos\Project 4 Rise of the AI\Debug\Project 4 Rise of the AI.exe
