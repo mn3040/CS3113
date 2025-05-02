@@ -2,9 +2,15 @@
 
 A 2D platformer game built with C++ using OpenGL, SDL2, and GLM, featuring a stealth-action mechanics and multiple levels with increasing difficulty.
 
+![image](https://github.com/user-attachments/assets/b38116e6-416a-4ec1-aebb-90a74ae001cf)
+
+
 ## Overview
 
 Night Blade follows a protagonist fighting through three challenging levels to rescue hostages across different environments. The game features fluid combat mechanics, visual effects, and progressive difficulty scaling.
+
+![image](https://github.com/user-attachments/assets/523d18b0-2c1b-4f03-9445-dc014c7bed75)
+
 
 ## Features
 
